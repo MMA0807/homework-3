@@ -48,6 +48,7 @@ function renderProgressbarHP(person) {
 }
 
 function changeHP(count, person) {
+
      if(person.damageHP < count){
          person.damageHP = 0
          alert('Бедный ' + person.name + ' проиграл!')
